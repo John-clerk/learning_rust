@@ -4,3 +4,15 @@ pub struct fern_sim{
     size:f64,
     growth_rate:f64,
 }
+//#[cfg(...)] option
+//test   tests are enabled(compiling with cargo or rustc test)
+//debug_assertions  Debug assertions are enable(typically in nonoptimized builds)
+//unix Compiling for Unix,including Macos
+//whindows Compiling for windows
+//target_pointer_width = "64" Targeting a 64-bit platform.The other possible values is "32"
+//target_arch ="x86-64" Targeting X86-64 in particular.Other values:"x86","arm"
+//target_os = "macos"  Compiling for macOs.Other values :"windows","ios","android"
+//feature = "robots" The user-defined feature named "robots" is enable(compiling with cargo buil --feature robots or rustc --cfg featuren ='"robots"')
+//not(A) A is not satistied.To provide two different implementations of function,mark one with #[cfg(X)] and the other with #[cfg(not(X))]
+//all(A,B)  Both A and B  are satisfied (the equivalent of &&)
+//any(A,B)  Either A or B is datisfied (the equivalent of ||)
