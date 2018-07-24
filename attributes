@@ -1,0 +1,6 @@
+//dispaly the warn:type shuld hava a camel case name sach as FernSim
+#[allow(one_camel_case_types)]
+pub struct fern_sim{
+    size:f64,
+    growth_rate:f64,
+}
