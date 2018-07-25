@@ -34,7 +34,7 @@ pub struct fern_sim{
  ///another snippet, the same code,but written differently;
  ///
  ///```
-  ///        if everythuing().work(){
+ ///        if everythuing().work(){
  ///            println!("ok");
  ///           }
  ///```
@@ -47,5 +47,4 @@ pub struct fern_sim{
  ///let mut session = fern_sim::connect();
  ///```
  ///
- 
  if the code isn't even expected to compile,using ignore instead no_run
