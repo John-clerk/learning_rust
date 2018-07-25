@@ -23,3 +23,4 @@ pub struct fern_sim{
 //the #! tells Rust  to attach an attribute to a whole  crate,add it at the top of main.rs or lib.rs file,before any items ,write #! install #,
 //like this: #![allow(non_camel_case_types)] 
  
+//
