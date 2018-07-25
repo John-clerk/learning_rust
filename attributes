@@ -1,5 +1,5 @@
 //dispaly the warn:type shuld hava a camel case name sach as FernSim
-#[allow(one_camel_case_types)]
+#[allow(non_camel_case_types)]
 pub struct fern_sim{
     size:f64,
     growth_rate:f64,
@@ -19,3 +19,7 @@ pub struct fern_sim{
 
 //#[inline(always)]   to requested the function be expaned inline  at every call site
 //#[inline(never)]   to ask that function never be inlined
+
+//the #! tells Rust  to attach an attribute to a whole  crate,add it at the top of main.rs or lib.rs file,before any items ,write #! install #,
+//like this: #![allow(non_camel_case_types)] 
+ 
