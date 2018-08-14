@@ -1,0 +1,13 @@
+//chapter11
+std::ops::{Neg,Not}
+Add,Sub,Mul,Div,Rem;
+BitAnd,BitOr,Bitor,Shl,Shr
+AddAssign,SubAssign,MulAssign,DivAssign,RemAssign
+BitAndAssign,BitOrAssign,BitXorAssign,ShlAssign,ShrAssign
+std::cmp::{PartialEq,PartialOrd}
+std::ops::{Index,IndexMut}
+
+//chapter 12
+Drop  Destructor.Cleanup code that rust runs automatically whenever value is dropped
+Sized Marker  trait for types with a fixed size known at complietime,as opposed to types
+      (such as slices) that are dynamically sized
